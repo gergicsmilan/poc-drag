@@ -5,6 +5,7 @@ import {
   Droppable,
   DropResult,
 } from "react-beautiful-dnd";
+import DragAndDropPoc from "./DragAndDropPoc";
 import { mock, MockData } from "./mockData";
 
 function App() {
@@ -88,6 +89,7 @@ function App() {
           </div>
         ))}
       </div>
+      <DragAndDropPoc />
     </>
   );
 }
